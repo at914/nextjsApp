@@ -1,0 +1,53 @@
+.basic-list-card.bg-primary .card h2{
+    color: #fff;
+}
+
+.basic-list-card .card .card-title {
+    font-size: 2.25rem;
+}
+.card-title {
+    color: #00205b;
+    font-size: 26px;
+    line-height: 36px;
+    margin: 0 0 30px;
+}
+.h1, .h2, h1, h2 {
+    font-size: 2.75rem;
+    line-height: 3.375rem;
+    font-weight: 300;
+    color: #00205b;
+}
+.feature-card .feature-card-title, .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: "RobotoSlab", serif;
+    font-weight: 300;
+}
+
+.basic-list-card.bg-primary .card .card-body{
+    color: #fff;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 0.25rem;
+}
+.basic-list-card.bg-primary, .related-articles-mobile .carousel-indicators li.active {
+    background-color: #00205b !important;
+}
+.basic-list-card .card {
+    background-color: transparent;
+}
+.card-class .card-class-content, p {
+    margin-top: 0;
+    margin-bottom: 20px;
+    line-height: 28px;
+    text-rendering: optimizeLegibility;
+}
