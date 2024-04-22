@@ -1,4 +1,4 @@
-import style from "./Videocard.css"
+import style from "./videocard.css"
 import Link from "next/link";
 const Videocard = () => {
     return (
