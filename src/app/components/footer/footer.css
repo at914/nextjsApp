@@ -1,0 +1,43 @@
+.global-footer {
+    background-color: #63666a;
+    padding: 50px 30px;
+}
+
+.global-footer .footer-column-title {
+    font-family: "RobotoSlab", serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+h4{
+    line-height: 2rem;
+}
+
+.global-footer .footer-column-title a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.global-footer .footer-column-list {
+    padding-left: 0;
+}
+
+.global-footer .footer-column-list ul {
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+
+.global-footer .footer-column-list li a {
+    display: block;
+    white-space: normal;
+    padding: 12px 0;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 300;
+}
+
+footer{
+    display: block;
+}

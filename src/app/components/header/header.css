@@ -45,8 +45,14 @@
 }
 
 .navbar-main .navbar-container .branding {
-    zoom: 95%;
+    zoom: 85%;
     margin-right: 0;
+    margin: auto;
+}
+
+.utility-container .utility-menu .nav-item{
+    display: block;
+    margin: auto;
 }
 
 .navbar-brand {
@@ -65,10 +71,83 @@ a {
     -webkit-tap-highlight-color: transparent;
 }
 
+@media (min-width: 1200px) {
+    .navbar-main .navbar-container {
+        max-width: 1500px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-container .utility-container {
+        display: block !important;
+    }
+}
+@media (max-width: 768px) {
+    .navbar-container .utility-container .utility-menu{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+.navbar-main .navbar-container .utility-container {
+    display: -ms-flexbox;
+    display: inline-flex;
+}
+
+.navbar-main .navbar-container .utility-menu {
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+@media (min-width: 1200px) {
+    .navbar-main ul.utility-menu li a.nav-link {
+        font-size: 1.1875rem !important;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .navbar-main ul.utility-menu li a.nav-link {
+        font-size: 1rem !important;
+        padding: .5rem .69rem;
+    }
+}
+
+.navbar-main ul.utility-menu li a.nav-link {
+    font-size: 1.375rem;
+    line-height: 32px;
+    display: block;
+    white-space: nowrap;
+    text-decoration: none;
+    color: #4a4a4a;
+}
+
 .navbar-main .navbar-container .branding .medicare-logo img, .navbar-main .navbar-container .branding img {
     max-width: none;
 }
 img {
     vertical-align: middle;
     border: 0;
+}
+
+@media (min-width: 576px) {
+    .cta-button-hero {
+        display: inline-block;
+    }
+}
+
+.cta-button-hero {
+    vertical-align: middle;
+    background-color: #fff;
+    color: #00205b;
+    white-space: nowrap;
+    text-decoration: none;
+    text-transform: capitalize;
+    border: 2px solid #00205b;
+    font-weight: 700;
+    letter-spacing: .5px;
+    padding: 20px 30px;
+    border-radius: 32px;
+    line-height: 15px;
+    transition: all .6s ease;
 }

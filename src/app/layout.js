@@ -3,6 +3,7 @@ import LocalFont from 'next/font/local'
 import '../../node_modules/bootstrap/dist/css/bootstrap.css'
 import './globals.css'
 import Header from './components/header/header'
+import Footer from './components/footer/footer'
 
 const kyrial = LocalFont({src:"./components/fonts/KyrialSansPro-Black.otf"});
 const inter = Inter({ subsets: ['latin'] })
@@ -15,7 +16,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}><Header/>{children}<h1 className={kyrial.className} style={{ backgroundColor: 'white' }}>Welcome</h1></body>
+      <body className={inter.className}><h1 className={kyrial.className} style={{ backgroundColor: 'white' ,textAlign: 'center'}}>Welcome</h1><Header/>{children}<Footer/></body>
     </html>
   )
 }

@@ -2,6 +2,10 @@
     color: #fff;
 }
 
+.basic-list-card.bg-primary a {
+    color: #fff;
+}
+
 .basic-list-card .card .card-title {
     font-size: 2.25rem;
 }
